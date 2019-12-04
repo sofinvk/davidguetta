@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+.contenedor {
+    width: 1000px;
+    margin: auto;
+}
+​
+.navLinks ul li {
+    list-style: none;
+}
+.centrado{
+    opacity: 0.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+.coluno {
+    padding: 0px;
+    float: left;
+    width: 50%;
+}
+.coldos {
+    padding: 0px;
+    float: left;
+    width: 50%;
+}
+header{
+    background:url(header.jpg) ;
+    height: 100px;
+    opacity: 0.5;
+}
+h1{
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 20px;
+    transition-duration: .3s;
+}
+h2{
+    color: rgb(249, 43, 149);
+}
+
+/*  h1,h2 {
+    margin: 0px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}*/
+body { 
+    background: rgb(32, 28, 50);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+} 
+.columnas {
+    text-align: center;
+    border-radius: 0px 0px 6px 6px;
+    vertical-align: baseline;
+  
+}
+p{
+    color: rgb(58, 213, 213);
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    font-size: 13px;
+    font-weight: lighter;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+ul,ol{list-style: none;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: lighter;
+    line-height: 1.5em;
+    
+  }
+  .navLinks ul{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+  }
+.navLinks li {
+    padding: 0px;
+    display: inline;
+    text-align: right;
+    padding-right: 100px;    
+}
+img{
+    width: 200px;
+}
+/* Botón link a la web oficial*/
+.button {
+    background-color: rgb(58, 213, 213);
+    color: white;
+    width: 250px;
+    border-radius: 8px;
+    padding: 15px 1px;
+    margin: 4px 1px;
+    cursor: pointer;
+    display: inline-block;
+  }
+a{
+    text-decoration: none;
+    color: rgb(58, 213, 213);
+    width: 200px;
+    font-size: 13px;
+}
